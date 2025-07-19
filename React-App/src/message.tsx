@@ -1,4 +1,5 @@
+let name = 'Nen';
 function Message() {
-  return <div>Hello, world!</div>
+  return <div onClick={() => console.log("Message clicked")}>Hello {name}!</div>
 }
 export default Message

@@ -1,34 +1,35 @@
+import React from 'react'
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  let [count, setcount] = useState(15)
+
+  const addvalue = () => {
+    count = count + 1
+    setcount(count)
+    console.log("Clicked",count)
+  }
+
+  const decrementValue = () => {
+    count = count - 1
+    setcount(count)
+    console.log("Clicked",count)
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      <h1 className='text-6xl font-bold font-stretch-ultra-expanded p-20 text-center'>Counter :{count}</h1>
+      <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded" onClick={addvalue}>
+        Increment
+      </button>
+      <br />
+      <br />
+      <button className="bg-red-500 text-white font-bold py-2 px-4 rounded" onClick={decrementValue}>
+        Decrement
+      </button>
+    </div>
   )
 }
 

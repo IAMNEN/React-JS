@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Msg() {
+const Msg = () => {
   return <span>Nen</span>
 }
 

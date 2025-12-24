@@ -1,10 +1,11 @@
 import React from 'react'
+import Msg from './component/msg'
 
 const App = () => {
   return (
     <div>
-      <h1>Hello, World!</h1>
-    </div> 
+      <h1>Welcome  <Msg /></h1>
+    </div>
   )
 }
 

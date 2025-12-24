@@ -1,18 +1,55 @@
 * {
-  margin : 0;
-  padding : 0;
-  box-sizing : border-box;
-  font-famaily :  helvetica;
-  color : #ffff;
-  font-weight : bold;
-  font-size : 100px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
 }
-html,body,#root {
-  height : 100%;
-  background-color : #121212;
+
+html, body, #root {
+  height: 100%;
+  background-color: #121212;
 }
-msg {
-  text-align : center;
-  line-height : 100vh;
-  color : #FA8670;
+
+/* Msg component */
+.msg {
+  text-align: center;
+  line-height: 100vh;
+  color: #FA8670;
+  font-size: 48px;
+}
+
+/* Card component */
+.card {
+  border: 2px solid #FA8670;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #1E1E1E;
+  font-size: 18px;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1e293b;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.item {
+  cursor: pointer;
 }

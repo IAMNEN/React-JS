@@ -5,3 +5,7 @@ const Msg = () => {
 }
 
 export default Msg
+
+function name(){
+  
+}

@@ -1,9 +1,15 @@
 import React from 'react'
 import Top from './components/top'
+import Boxgrid from './components/boxgrid'
+import Buttom from './components/buttom'
 
 const App = () => {
   return (
-    <Top />
+    <>
+      <Top />
+      <Boxgrid />
+      <Buttom />
+    </>
   )
 }
 

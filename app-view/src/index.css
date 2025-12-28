@@ -1,28 +1,160 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Arial', sans-serif;
-    background-color: #021024;
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #0d1f23;
+}
+.top {
+  padding: 50px;
+}
+.container {
+  width: 350px;
+  height: 650px;
+  padding: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #132e35;
+  border-radius: 50px;
+  display: flex;
+}
+.container h2 {
+  color: #e7ecf2;
+  padding: 20px 0px 0px 20px;
+  font-size: 25px;
+}
+.container h2 span {
+  color: #00ffc3;
+}
 
+.container i {
+  color: #d4d8dd;
+  font-size: 30px;
+  padding: 30px 0px 0px 50px;
+  cursor: pointer;
+  position: relative;
 }
-.top{
-    padding: 50px;
-}
-.container{
-    width: 350px;
-    height: 600px;
-    padding: 10px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #052659;
-    border-radius: 50px;
 
+.first {
+  width: 300px;
+  height: 100px;
+  background-color: #d6e8f5;
+  border-radius: 20px;
+
+  /* 2. Positioning Logic */
+  position: absolute;
+  bottom: 465px; /* This pulls it halfway out the bottom */
+
+  /* 3. Perfect Centering Logic */
+  left: 40%;
 }
-.container h2{
-    color: white;
-    padding: 20px 0px 0px 20px;
+.second {
+  width: 135px;
+  height: 100px;
+  background-color: #e7ecf2;
+  border-radius: 20px;
+
+  /* 2. Positioning Logic */
+  position: absolute;
+  bottom: 300px; /* This pulls it halfway out the bottom */
+
+  /* 3. Perfect Centering Logic */
+  left: 40%;
+}
+.text {
+  position: absolute;
+  bottom: 420px; /* This pulls it halfway out the bottom */
+
+  /* 3. Perfect Centering Logic */
+  left: 40.5%;
+  color: #d0e6a5;
+  font-size: 18px;
+}
+.third {
+  width: 135px;
+  height: 190px;
+  background-color: #e7ecf2;
+  border-radius: 20px;
+
+  /* 2. Positioning Logic */
+  position: absolute;
+  bottom: 210px; /* This pulls it halfway out the bottom */
+
+  /* 3. Perfect Centering Logic */
+  left: 51%;
+}
+.fourth {
+  width: 135px;
+  height: 190px;
+  background-color: #e7ecf2;
+  border-radius: 20px;
+
+  /* 2. Positioning Logic */
+  position: absolute;
+  bottom: 97px; /* This pulls it halfway out the bottom */
+
+  /* 3. Perfect Centering Logic */
+  left: 40%;
+}
+.fifth {
+  width: 135px;
+  height: 100px;
+  background-color: #e7ecf2;
+  border-radius: 20px;
+
+  /* 2. Positioning Logic */
+  position: absolute;
+  bottom: 98px; /* This pulls it halfway out the bottom */
+
+  /* 3. Perfect Centering Logic */
+  left: 51%;
+}
+.buttom .page i{
+    position: absolute;
+    bottom: 45px; /* This pulls it halfway out the bottom */
     
+    /* 3. Perfect Centering Logic */
+    left: 49.2%;
+    font-size: 35px; 
+    border: 2px solid #d4d8dd;
+    border-radius: 50%;
+    color: #d4d8dd;   
+}
+.buttom .profile i{
+    position: absolute;
+    bottom: 45px; /* This pulls it halfway out the bottom */
+    
+    /* 3. Perfect Centering Logic */
+    left: 53.2%;
+    font-size: 25px; 
+    color: #d4d8dd; 
+}
+.buttom .date i{
+    position: absolute;
+    bottom: 45px; /* This pulls it halfway out the bottom */
+    
+    /* 3. Perfect Centering Logic */
+    left: 45.2%;
+    font-size: 25px; 
+    color: #d4d8dd; 
+}
+.buttom .grid i{
+    position: absolute;
+    bottom: 45px; /* This pulls it halfway out the bottom */
+    
+    /* 3. Perfect Centering Logic */
+    left: 41.2%;
+    font-size: 25px; 
+    color: #d4d8dd; 
+}
+.buttom .add i{
+    position: absolute;
+    bottom: 45px; /* This pulls it halfway out the bottom */
+    
+    /* 3. Perfect Centering Logic */
+    left:57.2%;
+    font-size: 25px; 
+    color: #d4d8dd; 
 }
